@@ -135,10 +135,12 @@ require_once 'views/userheader.php';
 
                                     </i> <?=$wish_count?>
                                 </span>
-                            <div class="clear"></a>
-                                <span>
-                                <i class="fa fa-envelope" id="myBtn" onclick="sendemail('<?=$value->modelwishlistfolder_name?
-                                    </div>
+                                <div class="clear">
+                                    <span>
+                                        <i class="fa fa-envelope" id="myBtn" onclick="sendemail('<?=$value->modelwishlistfolder_name?>')"></i>
+                                    </span>
+                                </div>
+
                                     
                         </div>\
                         <!-- <div class="item-text">
