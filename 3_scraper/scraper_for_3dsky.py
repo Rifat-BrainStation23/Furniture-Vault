@@ -8,15 +8,15 @@ from bs4 import BeautifulSoup
 import mysql.connector
 
 
+"""
+setup selenium
+"""
 # Optional: Set Chrome to run in headless mode (without opening the browser window)
 chrome_options = Options()
 chrome_options.headless = False  # Set to False if you want to see the browser
 
 # Path of ChromeDriver executable 
 driver_path = 'C:/wamp64/www/furniturevault_upgrade/3_scraper/chromedriver/chromedriver-win64/chromedriver.exe'
-
-# Set up the Selenium WebDriver
-# driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options)
 
 # Set up the Service object to specify the ChromeDriver path
 service = Service(executable_path=driver_path)
@@ -25,16 +25,17 @@ service = Service(executable_path=driver_path)
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 
-
-
+"""
+Open the url
+"""
 # Step 1: Scrape data from the public website
-url = 'https://3dsky.org'  # Public website you want to scrape
+url = 'https://3dsky.org'
 
 # Open the URL
 driver.get(url)
 
-# Wait for the page to load completely (adjust the wait time as needed)
-driver.implicitly_wait(60)  # Waits for 5 seconds
+# Wait for the page to load completely in second
+driver.implicitly_wait(60)  
 
 # Now that the page has loaded, you can retrieve the page source (HTML content)
 html_content = driver.page_source
