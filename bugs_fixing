@@ -1,0 +1,25 @@
+PHP DEVELOPER for bug fixing and update We have developed a website simile to www.3dsky.org. 
+
+We have the flowing bugs and update we would like to do . 
+
+1.Uploading a combination of zip(zip,rar,7z etc) file during Mass upload . - I checked zip and rar files working. - ZIP, .RAR, .ARJ, .TAR.GZ , .TGZ , .7z, .s7z, .SITX, .GZ - DONE
+
+10 format (zip, .rar, .arj, .tar, .gz , .tgz , .7z, .s7z, .sitx, .gz).
+ 
+2.When we delete model from the CMS panel it delete the model from the database completely. - DONE - Need to delete folder from the uploads - DONE with folder - Remove also from project folder
+
+3.Checking the mass upload function for bug - Check In Live - 
+
+4.adding up check box in front of each model on modify and approval button .Also put delete / approve /disapprove action icon at the top . - DONE - Done With Icons
+
+
+5.Putting filter option based on subcategory on a search result . - DONE - Remove the furniture category.Show name of the search and counts of the models
+
+6.Rearranging how you see and edit a model and its info from the control panel . Please have a look at the attached screen shoot to get an idea about the changes. I will give the source code to the successful candidate who can do the project so that he can modify the changes on it . Please note that you need to know PHP to do the changes. - DONE - Adding image on the left panel
+
+
+7- For thet dataentry group login mass upload , modify model ( with out the option of delete model) and tags
+
+
+- Add description ckeditor same
+- Change column ordering for the action after image
